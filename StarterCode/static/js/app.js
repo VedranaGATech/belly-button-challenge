@@ -1,9 +1,8 @@
 // Dropdown menu function for selection 
 d3.selectAll("#selDataset").on("change", selection)
 
-// Dropdown menu values 
-   
-d3.json("data/samples.json").then(function(dataOtu){
+// Dropdown menu values   
+d3.json(data/samples.json).then(function(dataOtu){
 
     var names_list = dataOtu.names;
  

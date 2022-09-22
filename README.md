@@ -34,11 +34,9 @@ Use the D3 library to read in `samples.json` from the URL `https://2u-data-curri
 
 ### 4. Display the sample metadata, i.e., an individual's demographic information.
 
-![hw](Images/demographic.png)
-
 ### 5. Display each key-value pair from the metadata JSON object somewhere on the page.
 
-
+![hw](Images/demographic.png)
 
 ### 6. Update all the plots when a new sample is selected. Dashboard is shown below:
 

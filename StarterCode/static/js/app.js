@@ -2,7 +2,7 @@
 d3.selectAll("#selDataset").on("change", selection)
 
 // Dropdown menu values   
-d3.json("../data/samples.json").then(function(dataOtu){
+d3.json("StarterCode/samples.json").then(function(dataOtu){
 
     var names_list = dataOtu.names;
  
@@ -29,7 +29,7 @@ function selection(){
 };
 
 function buildPlot(input) {
-    d3.json("../data/samples.json").then(function(dataOtu){
+    d3.json("StarterCode/samples.json").then(function(dataOtu){
         // Names List
         var names_list = dataOtu.names;
         

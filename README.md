@@ -44,7 +44,7 @@ Use the D3 library to read in `samples.json` from the URL `https://2u-data-curri
 
 ### 7. Deploy your app to a free static page hosting service, such as GitHub Pages. 
 
-https://vedranagatech.github.io/belly-button-challenge2/ 
+https://vedranagatech.github.io/belly-button-challenge/ 
 - - -
 
 ## References

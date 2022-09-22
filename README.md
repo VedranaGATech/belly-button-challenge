@@ -38,7 +38,7 @@ Use the D3 library to read in `samples.json` from the URL `https://2u-data-curri
 
 ![hw](Images/demographic.png)
 
-### 6. Update all the plots when a new sample is selected. An example dashboard is shown below:
+### 6. Update all the plots when a new sample is selected. Dashboard is shown below:
 
 ![hw](Images/index.png)
 

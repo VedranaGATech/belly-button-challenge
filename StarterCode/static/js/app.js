@@ -79,7 +79,7 @@ function buildPlot(input) {
         };
         Plotly.newPlot('bubble', data, layout);
 
-        // Clearing  all data for new menue selection for Metadata
+        // Resetting all data for new menue selection for Metadata
         d3.select("#sample-metadata").selectAll("p").remove();
        
         var meta_text = dataOtu.metadata[sample_id];
@@ -94,10 +94,6 @@ function buildPlot(input) {
         m_keys.forEach(function(m_data){
         meta_data.append("p").text(`${m_data[0]}: ${m_data[1]}`)
         });
-
-        // Wash frequency for guage
-        var wash_freq = meta_text.wfreq
-             
-        guage(wash_freq)
+ 
     }); 
 };
